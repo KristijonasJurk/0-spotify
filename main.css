@@ -25,25 +25,46 @@ body {
         width: 100%;
         background-color: red;
         float: right;
+        text-align: center;
+        border-bottom: 3px solid gray;
     }
         .close {
             display: inline-block;
             float: left;
+            background-color: gray;
+            color: #ffffff;
+            padding: 10px;
+            font-size: 25px;
+            margin-top: 3px;
+            margin-left: 3px;
+            border-radius: 40px;
         }
-        h1 {
+        .logo {
             display: inline-block;
-            text-align: center;
-            background-color: blue;
+            margin-top: 20px;
+            background-color: yellow;
         }
-           p {
-               display: inline-block;
-               float: right;
+            img {
+                display: inline-block;
+                margin-top: 5px;
+            }
+            h1 {
+                display: inline-block;
+                font-size: 40px;
+            }
+        p {
+            display: inline-block;
+            float: right;
+            background-color: gray;
+            padding: 6px;
+            margin-top: 10px;
+            border-radius: 20px;
            }
             .arrow {
-                border: solid black;
+                border: solid white;
                 border-width: 0 3px 3px 0;
                 display: inline-block;
-                padding: 3px;
+                padding: 10px;
             }    
             .left {
                 transform: rotate(135deg);
@@ -53,3 +74,34 @@ body {
                 transform: rotate(-45deg);
                 -webkit-transform: rotate(-45deg);
             }
+    .form {
+        text-align: center;
+        margin-top: 100px;
+    }
+        .facebook {
+            display: inline-block;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 10px;
+            background-color: red;
+            border-radius: 25px;
+            font-size: 20px;
+        }
+        .apple {
+            display: inline-block;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 10px;
+            background-color: red;
+            border-radius: 25px;
+            font-size: 20px;
+        }
+        .number {
+            display: inline-block;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 10px;
+            background-color: red;
+            border-radius: 25px;
+            font-size: 20px;
+        }
