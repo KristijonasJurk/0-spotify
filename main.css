@@ -14,7 +14,7 @@ body {
     .container {
         display: inline-block;
         width: 800px;
-        height: 600px;
+        height: 700px;
         background-color: #ffffff;
         margin-left: 60vh;
         margin-top: 15vh;
@@ -23,7 +23,6 @@ body {
     header {
         display: inline-block;
         width: 100%;
-        background-color: red;
         float: right;
         text-align: center;
         border-bottom: 3px solid gray;
@@ -41,8 +40,8 @@ body {
         }
         .logo {
             display: inline-block;
-            margin-top: 20px;
-            background-color: yellow;
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
             img {
                 display: inline-block;
@@ -76,32 +75,116 @@ body {
             }
     .form {
         text-align: center;
+        width: 400px;
+        margin-left: 100px;
         margin-top: 100px;
     }
         .facebook {
             display: inline-block;
+            width: 400px;
             margin-left: 100px;
             margin-right: 100px;
             padding: 10px;
-            background-color: red;
+            background-color: blue;
+            color: #ffffff;
             border-radius: 25px;
-            font-size: 20px;
+            font-size: 15px;
+            margin-bottom: 8px;
         }
         .apple {
             display: inline-block;
+            width: 400px;
             margin-left: 100px;
             margin-right: 100px;
             padding: 10px;
-            background-color: red;
+            background-color: black;
+            color: #ffffff;
             border-radius: 25px;
-            font-size: 20px;
+            font-size: 15px;
+            margin-bottom: 8px;
         }
         .number {
             display: inline-block;
+            width: 400px;
             margin-left: 100px;
             margin-right: 100px;
             padding: 10px;
-            background-color: red;
+            background-color: white;
+            color: gray;
+            border: 2px solid gray;
             border-radius: 25px;
-            font-size: 20px;
+            font-size: 15px;
         }
+    .or {
+        width: 100%;
+        margin-left: 100px;
+        padding: 10px;
+    }
+    .register {
+        display: inline-block;
+        width: 400px;
+        margin-left: 100px;
+    }
+        .register > input {
+            width: 100%;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+        .rememberme {
+            display: inline-block;
+            float: left;
+            width: 50%;
+            text-align: left;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+            .rememberme > input {
+                float: left;
+                width: 20px;
+                height: 20px;
+            }
+            .rememberme > label {
+                padding-left: 5px;
+                color: gray;
+            }
+    .login {
+        float: right;
+        width: 50%;
+        padding: 10px;
+        border-radius: 25px;
+        margin-top: 10px;
+        color: white;
+        font-size: 15px;
+        background-color: green;
+    }
+    .forgot {
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+        color: green;
+        padding-bottom: 30px;
+        border-bottom: 2px solid gray;
+    }
+.footer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 12px;
+    border-bottom: 2px solid gray;
+}
+    h2 {
+
+    }
+    .button {
+        text-transform: capitalize;
+        text-align: center;
+        margin-left: 200px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 15px;
+        width: 400px;
+        padding: 10px;
+        border: 3px solid gray;
+        border-radius: 20px;
+    }
